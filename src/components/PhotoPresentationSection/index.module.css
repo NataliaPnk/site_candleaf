@@ -1,0 +1,58 @@
+.PhotoPresentationSectionContainer {
+  background-image: url('./media/bg-image.jpg');
+  width: 100%;
+  height: 714px;
+
+
+  position: relative;
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+.contentInCentreWrapper {
+  width: 60%;
+  height: 228px;
+  background-color: #FFFFFFBF;
+  opacity: 95%;
+  
+
+
+  flex-direction: column;
+  
+  justify-content: center; 
+  
+
+  text-align: center;
+
+
+}
+
+
+.contentInCentreWrapper h2 {
+  font-size: 40px;
+  color: #272727;
+  font-family: 'Poppins';
+}
+
+
+.contentInCentreWrapper p {
+  font-size: 18px;
+  color: #5E6E89;
+  font-family: 'Poppins';
+}
+
+.contentInCentreWrapper button {
+  width: 52%;
+  height: 40px;
+  background-color: #56B280;
+  border-style: none;
+  border-radius: 5px;
+
+
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: 'Roboto';
+}

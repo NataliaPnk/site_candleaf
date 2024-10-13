@@ -1,0 +1,41 @@
+.itemReview {
+  width: 350px;
+  height: 320px;
+
+
+  background-color: #FFFFFF;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px; 
+}
+
+
+.rates {
+  padding-bottom: 20px;
+}
+
+
+
+.itemReview p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 22px;
+    color: #1D293F;
+
+    display: flex;
+    text-align: center;
+  
+}
+
+
+.itemReview span {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  color: #7C8087;
+}
